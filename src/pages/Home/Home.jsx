@@ -4,6 +4,7 @@ import RIghtSide from "../shared/RightSide/RIghtSide";
 import Header from "../shared/Header/Header";
 import Navbar from "../shared/Navbar/Navbar";
 import BreakingNews from "./BreakingNews";
+import News from "./News";
 
 const Home = () => {
   return (
@@ -16,7 +17,7 @@ const Home = () => {
           <LeftSide></LeftSide>
         </div>
         <div className="md:col-span-2">
-          <h2>News .........</h2>
+          <News></News>
         </div>
         <div>
           <RIghtSide></RIghtSide>

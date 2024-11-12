@@ -68,7 +68,7 @@ const LoginByGoogle = () => {
 
         <div className="text-center text-gray-500">
           Don’t have an account?{" "}
-          <Link to="/signUp" className="text-blue-600 hover:underline">
+          <Link to="/reg" className="text-blue-600 hover:underline">
             Sign Up
           </Link>
         </div>

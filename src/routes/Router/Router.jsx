@@ -3,6 +3,8 @@ import Root from "../../layout/Root";
 import Home from "../../pages/Home/Home";
 import ErrorPage from "../../pages/ErrorPage/ErrorPage";
 import Login from "../../Security/Login/Login";
+import RegistrationForm from "../../Security/RegistrationForm/RegistrationForm";
+import NewsDetails from "../../pages/Home/NewsDetails";
 
 const router = createBrowserRouter([
   {
@@ -17,6 +19,14 @@ const router = createBrowserRouter([
       {
         path: "/logIn",
         element: <Login></Login>,
+      },
+      {
+        path: "/reg",
+        element: <RegistrationForm></RegistrationForm>,
+      },
+      {
+        path: "news/:id",
+        element: <NewsDetails></NewsDetails>,
       },
     ],
   },
